@@ -1,0 +1,27 @@
+code {
+  font-family: "Courier New", monospace;
+}
+
+.grid-container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn button {
+  border-style: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: var(--bg-red);
+  color: #fff;
+  font-size: 1em;
+}
+

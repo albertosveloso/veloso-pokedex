@@ -1,0 +1,16 @@
+aside.logo {
+  background-color: var(--bg-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+aside.logo img {
+  width: 90%;
+  margin-left: 4%;
+}
+
+@media (max-width: 576px) {
+  aside.logo img {
+    width: 300px;
+  }
+}
